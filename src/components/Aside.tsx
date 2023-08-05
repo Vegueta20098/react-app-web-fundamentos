@@ -18,7 +18,7 @@ export const Aside = (props: any) => {
     <aside
           className={`h-screen w-11/12 lg:w-1/4 p-4 fixed
         top-0 left-0 bottom-0 bg-white
-        shadow-lg shadow-gray-500 text-rose-500 z-30 transition duration-500 ease-in-out
+        shadow-lg shadow-gray-500 text-blue-500 z-30 transition duration-500 ease-in-out
         ${mostrar ? 'translate-x-0' : '-translate-x-full'}`}>
           <h2 className="flex items-center justify-between text-2xl font-bold">
             <span>
