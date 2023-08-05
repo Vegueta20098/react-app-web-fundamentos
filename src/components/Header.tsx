@@ -13,21 +13,21 @@ export const Header = (props: Props) => {
   const { useLogout } = props;
 
   return (
-    <header className="flex items-center justify-between p-2 text-lg text-center text-white uppercase border-b-8 shadow-lg select-none bg-slate-700 border-rose-400 shadow-slate-400">
-      <span
-        onClick={() => setMostrar(1)}
-        className="hover:cursor-pointer hover:text-rose-400 active:text-yellow-400"
-      >
-        <MdMenu size={40} />
-      </span>
+    <header className="flex items-center justify-between p-2 text-lg text-center
+       text-white uppercase border-b-8 shadow-lg select-none bg-slate-700
+        border-rose-400 shadow-slate-400">
+        <span
+          onClick={() => setMostrar(1)}
+          className="hover:cursor-pointer hover:text-rose-400 active:text-yellow-400">
+          <MdMenu size={40} />
+        </span>
 
-      <div>
-        <h1 className="font-bold">
-          Reservaciones de eventos y compras en línea
-        </h1>
-        <p>Comercial "La económica"</p>
-      </div>
-
+        <div>
+          <h1 className="font-bold">
+            Reservaciones de eventos y compras en l&iacute;nea
+          </h1>
+          <p>Comercial "La econ&oacute;mica"</p>
+        </div>
     
       <div className="relative">
         <span onClick={() => setMenuVisible(!menuVisible)}>
